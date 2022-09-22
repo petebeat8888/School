@@ -1,0 +1,129 @@
+.Left-col {
+    position: absolute;
+    top: 54px;    
+    left: 30%;
+    transform: translate(-50%, 0%);
+    z-index: 999;
+
+}
+
+.Left-img  {
+    position: relative;
+    z-index: 999;
+}
+
+.Right-col {
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    transform: translate(0%, 0%);
+
+}
+
+.Right-col-texttitle1 {
+    position: relative;
+    top: 50px;
+    text-align: left;
+    color: #3a2b1c;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Right-col-text1 {
+    position: relative;
+    text-align: left;
+    width: 400px;
+    color: #3a2b1c;
+    font-size: 14px;
+}
+
+.Left-col-texttitle1 {
+    position: relative;
+    top: 30px;
+    text-align: left;
+    color: #3a2b1c;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Left-col-text1 {
+    position: relative;
+    text-align: left;
+    width: 250px;
+    color: #3a2b1c;
+    font-size: 14px;
+
+}
+
+.contacts {
+    vertical-align: middle;
+    width: 7%;
+    height: 7%;
+}
+
+ul {
+    top: -10px;
+    position: relative;
+}
+
+
+
+.Title {
+    position: relative;
+    display: block;
+    top: 10px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+}
+
+H1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Programmer {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: -25px;
+}
+
+
+.Top-image-bar {
+
+    z-index: 100;
+    position: absolute;
+    /* margin: -10px;
+    padding: -10px; */
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    width: 105%; 
+    height: 200px;
+    background-color: #5f4630;
+
+
+}
+
+.Ruler {
+    position: relative;
+    left: -40%;
+    color: #3a2b1c;
+}
+
+.Ruler-left {
+    position: relative;
+    left: -34%;
+    color: #3a2b1c;
+}
+
+.jobbox {
+    position:relative;
+    right: -75px;
+    top: -16px;
+    width: 325px;
+
+} 
+
