@@ -1,19 +1,26 @@
 body{
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3a2b1c;
 }
 
 .dashboxline {
     position: absolute;
-    top: 83%;    
+    top: 540px; 
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 999;
-    width: 66%;
-    height: 166%;
-    border-width: medium;
-    border: black;
+    width: 1000px;
+    height: 1100px;
+    border: #5f4630;
     border-style: dotted;
+}
+
+.Top-image-bar {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #5f4630;
 }
 
 .Left-col {
@@ -21,43 +28,19 @@ body{
     top: 54px;    
     left: 20%;
     transform: translate(-50%, 0%);
-    z-index: 200;
+    z-index: 1;
+    width: 250px;
 }
 
 .Left-img  {
     position: relative;
-    z-index: 300;
-}
-
-.Right-col {
-    position: absolute;
-    top: 20px;
-    left: 45%;
-    transform: translate(0%, 0%);
-}
-
-.Right-col-texttitle1 {
-    position: relative;
-    top: 50px;
-    text-align: left;
-    color: #3a2b1c;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.Right-col-text1 {
-    position: relative;
-    text-align: left;
-    width: 400px;
-    color: #3a2b1c;
-    font-size: 14px;
+    z-index: 2;
 }
 
 .Left-col-texttitle1 {
     position: relative;
     top: 30px;
     text-align: left;
-    color: #3a2b1c;
     font-size: 22px;
     font-weight: bold;
 }
@@ -66,24 +49,51 @@ body{
     position: relative;
     text-align: left;
     width: 250px;
-    color: #3a2b1c;
+    font-size: 14px;
+    display: flex;
+
+}
+
+.spacer {
+    height: 12px;
+    margin-bottom: 12px;
+}
+
+.Right-col {
+    position: absolute;
+    top: 20px;
+    left: 45%;
+}
+
+.Right-col-texttitle1 {
+    position: relative; /* relative to top bar */
+    top: 50px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Right-col-text1 {
+    position: relative;
+    text-align: left;
+    width: 480px;
     font-size: 14px;
 }
 
-.contacts {
+.contact {
     vertical-align: middle;
     width: 7%;
     height: 7%;
 }
 
 ul {
-    top: -10px;
     position: relative;
+    top: -10px;
+    left: -10px;
 }
 
 .Title {
     position: relative;
-    display: block;
     top: 10px;
     text-align: left;
     color: white;
@@ -101,26 +111,15 @@ H1 {
     top: -25px;
 }
 
-.Top-image-bar {
-    z-index: 10;
-    position: absolute;
-    /* top: -10px;
-    left: -10px;
-    right: -10px; */
-    width: 100%;
-    height: 200px;
-    background-color: #5f4630;
-}
-
 .Ruler {
     position: relative;
-    left: -40%;
+    left: -198px;
     color: #3a2b1c;
 }
 
 .Ruler-left {
     position: relative;
-    left: -34%;
+    left: -83px;
     color: #3a2b1c;
 }
 
@@ -128,6 +127,6 @@ H1 {
     position:relative;
     right: -100px;
     top: -17.5px;
-    width: 300px;
+    width: 360px;
 } 
 
